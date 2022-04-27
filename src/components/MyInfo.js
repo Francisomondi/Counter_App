@@ -2,7 +2,7 @@ import React from "react";
 
 const MyInfo = () => {
   return (
-    <div className="container">
+    <div>
       <h1>Francis odero omondi</h1>
       <p>this is a list of my to do list</p>
       <ul>

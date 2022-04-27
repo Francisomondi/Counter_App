@@ -1,8 +1,8 @@
 import React from "react";
 
-const Counter = () => {
+const Header = () => {
   return (
-    <div className="container">
+    <div>
       <span
         style={{ fontSize: 30, color: "red" }}
         className="badge badge-light"
@@ -14,4 +14,4 @@ const Counter = () => {
   );
 };
 
-export default Counter;
+export default Header;

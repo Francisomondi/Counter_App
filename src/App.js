@@ -13,7 +13,24 @@ function App() {
       <TodoItem />
       <TodoItem />
       <TodoItem />
-      <ContactList />
+      <ContactList
+        imageUrl="logo192.png "
+        name="Francis OMondi"
+        phone="066784483939"
+        email="me@gmail.com"
+      />
+      <ContactList
+        imageUrl={"logo192.png "}
+        name="Jadon Sancho"
+        phone="0740463376"
+        email="me@gmail.com"
+      />
+      <ContactList
+        imageUrl={"logo192.png "}
+        name="Eliud Kipchoge"
+        phone="07488888888"
+        email="me@gmail.com"
+      />
 
       <Footer />
     </div>

@@ -14,22 +14,28 @@ function App() {
       <TodoItem />
       <TodoItem />
       <ContactList
-        imageUrl="logo192.png "
-        name="Francis OMondi"
-        phone="066784483939"
-        email="me@gmail.com"
+        contact={{
+          imageUrl: "logo192.png ",
+          name: "Francis OMondi",
+          phone: "066784483939",
+          email: "francis@gmail.com"
+        }}
       />
       <ContactList
-        imageUrl={"logo192.png "}
-        name="Jadon Sancho"
-        phone="0740463376"
-        email="me@gmail.com"
+        contact={{
+          imageUrl: "logo192.png ",
+          name: "Jadon Sancho",
+          phone: "0740463376",
+          email: "njoro@gmail.com"
+        }}
       />
       <ContactList
-        imageUrl={"logo192.png "}
-        name="Eliud Kipchoge"
-        phone="07488888888"
-        email="me@gmail.com"
+        contact={{
+          imageUrl: "logo192.png ",
+          name: "Eliud Kipchoge",
+          phone: "0797344578",
+          email: "eliud@gmail.com"
+        }}
       />
 
       <Footer />

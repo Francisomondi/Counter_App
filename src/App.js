@@ -6,18 +6,21 @@ import TodoItem from "./components/TodoItem";
 import Joke from "./components/Joke";
 import ContactList from "./components/ContactList";
 import Footer from "./components/Footer";
+import JokesData from "./components/JokesData";
 
 function App() {
+  const JokeComponent = JokesData.map(joke => {
+    return <Joke question={joke.question} answer={joke.answer} />;
+  });
+
   return (
     <div className="container">
       <Header />
       <TodoItem />
       <TodoItem />
       <TodoItem />
-      <Joke answer="Most people go to depresion because of love and money" />
-      <Joke question="who mooved my cheese" answer="stupid ass wannabees" />
-      <Joke question="who mooved my cheese" answer="stupid ass wannabees" />
-      <Joke question="who mooved my cheese" answer="stupid ass wannabees" />
+      {JokeComponent}
+
       <ContactList
         contact={{
           imageUrl: "logo192.png ",

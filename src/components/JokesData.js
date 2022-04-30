@@ -6,7 +6,7 @@ const JokesData = [
   },
   {
     id: 2,
-    question: "who is Kenyas $th president",
+    question: "who is Kenyas 5th president",
     answer: "Wanjohi the drama King"
   },
   {

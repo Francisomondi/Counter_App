@@ -7,11 +7,16 @@ import Joke from "./components/Joke";
 import ContactList from "./components/ContactList";
 import Footer from "./components/Footer";
 import JokesData from "./components/JokesData";
+import Products from "./components/Products";
+import Product from "./components/Product";
+import StateTutorial from "./components/StateTutorial";
 
 function App() {
   const JokeComponent = JokesData.map(joke => {
     return <Joke question={joke.question} answer={joke.answer} />;
   });
+
+  const ProductComponent = Products.map(item => <Product product={item} />);
 
   return (
     <div className="container">
@@ -20,6 +25,8 @@ function App() {
       <TodoItem />
       <TodoItem />
       {JokeComponent}
+
+      <StateTutorial />
 
       <ContactList
         contact={{
